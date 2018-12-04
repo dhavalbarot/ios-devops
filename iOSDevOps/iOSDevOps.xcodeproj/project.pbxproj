@@ -14,6 +14,8 @@
 		A32D12B121B65408009F1964 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32D12AF21B65408009F1964 /* LaunchScreen.storyboard */; };
 		A32D12BC21B65408009F1964 /* iOSDevOpsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32D12BB21B65408009F1964 /* iOSDevOpsTests.swift */; };
 		A32D12C721B65408009F1964 /* iOSDevOpsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32D12C621B65408009F1964 /* iOSDevOpsUITests.swift */; };
+		A32D12D521B66BE3009F1964 /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32D12D421B66BE3009F1964 /* EditProfileVC.swift */; };
+		A32D12D821B67FF7009F1964 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32D12D721B67FF7009F1964 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A32D12C221B65408009F1964 /* iOSDevOpsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSDevOpsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A32D12C621B65408009F1964 /* iOSDevOpsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSDevOpsUITests.swift; sourceTree = "<group>"; };
 		A32D12C821B65408009F1964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A32D12D421B66BE3009F1964 /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		A32D12D721B67FF7009F1964 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		A32D12A521B65406009F1964 /* iOSDevOps */ = {
 			isa = PBXGroup;
 			children = (
+				A32D12D621B67E1B009F1964 /* Model */,
 				A32D12A621B65406009F1964 /* AppDelegate.swift */,
 				A32D12A821B65406009F1964 /* ViewController.swift */,
+				A32D12D421B66BE3009F1964 /* EditProfileVC.swift */,
 				A32D12AA21B65406009F1964 /* Main.storyboard */,
 				A32D12AD21B65408009F1964 /* Assets.xcassets */,
 				A32D12AF21B65408009F1964 /* LaunchScreen.storyboard */,
@@ -123,6 +129,14 @@
 				A32D12C821B65408009F1964 /* Info.plist */,
 			);
 			path = iOSDevOpsUITests;
+			sourceTree = "<group>";
+		};
+		A32D12D621B67E1B009F1964 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A32D12D721B67FF7009F1964 /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +270,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A32D12D821B67FF7009F1964 /* User.swift in Sources */,
 				A32D12A921B65406009F1964 /* ViewController.swift in Sources */,
+				A32D12D521B66BE3009F1964 /* EditProfileVC.swift in Sources */,
 				A32D12A721B65406009F1964 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
