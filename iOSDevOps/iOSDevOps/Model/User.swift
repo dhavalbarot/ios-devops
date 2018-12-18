@@ -17,4 +17,8 @@ class User: NSObject {
     self.email = email
     self.password = password
   }
+  
+  func updateEmail(email: String) {
+    self.email = email
+  }
 }

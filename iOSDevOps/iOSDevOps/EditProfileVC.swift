@@ -27,7 +27,7 @@ class EditProfileVC: UIViewController {
   
   @IBAction func btnSaveTap(_ sender: UIButton) {
     if isValidUserName() {
-      self.user.email = txtUserName.text
+      user.updateEmail(email: txtUserName.text!)
       prepareView()
     }
   }

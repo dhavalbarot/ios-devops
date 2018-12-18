@@ -4,10 +4,33 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>iOSDevOps.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
 		<key>iOSDevOps.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>A32D12A221B65406009F1964</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A32D12B621B65408009F1964</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A32D12C121B65408009F1964</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

@@ -16,6 +16,7 @@
 		A32D12C721B65408009F1964 /* iOSDevOpsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32D12C621B65408009F1964 /* iOSDevOpsUITests.swift */; };
 		A32D12D521B66BE3009F1964 /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32D12D421B66BE3009F1964 /* EditProfileVC.swift */; };
 		A32D12D821B67FF7009F1964 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32D12D721B67FF7009F1964 /* User.swift */; };
+		A35C770A21B7A7810002E9A2 /* UserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35C770921B7A7810002E9A2 /* UserTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A32D12C821B65408009F1964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A32D12D421B66BE3009F1964 /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
 		A32D12D721B67FF7009F1964 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A35C770921B7A7810002E9A2 /* UserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		A32D12BA21B65408009F1964 /* iOSDevOpsTests */ = {
 			isa = PBXGroup;
 			children = (
+				A35C770821B7A75A0002E9A2 /* Model */,
 				A32D12BB21B65408009F1964 /* iOSDevOpsTests.swift */,
 				A32D12BD21B65408009F1964 /* Info.plist */,
 			);
@@ -135,6 +138,14 @@
 			isa = PBXGroup;
 			children = (
 				A32D12D721B67FF7009F1964 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A35C770821B7A75A0002E9A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A35C770921B7A7810002E9A2 /* UserTests.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -281,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A35C770A21B7A7810002E9A2 /* UserTests.swift in Sources */,
 				A32D12BC21B65408009F1964 /* iOSDevOpsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
